@@ -1,0 +1,28 @@
+############################################################
+#                DISCLAIMER:
+#
+# configurations below are for educational purposes only.
+# 
+# below code is free to use and adjust as you like. 
+# The author cannot be held responsible for any loses 
+# caused by using these configurations.
+#
+############################################################
+
+#FAST RSI
+FASTRSI_candle_period = 300
+FASTRSI_length = 5
+
+# SLOW RSI
+SLOWRSI_candle_period = 300
+SLOWRSI_length = 14
+
+#FAST RSI of previous candle
+PREVFASTRSI_candle_period = 300
+PREVFASTRSI_length = 5
+PREVFASTRSI_offset = 1
+
+# SLOW RSI of previous candle
+PREVSLOWRSI_candle_period = 300
+PREVSLOWRSI_length = 14
+PREVSLOWRSI_offset = 1

@@ -1,0 +1,32 @@
+############################################################
+#                DISCLAIMER:
+#
+# configurations below are for educational purposes only.
+# 
+# below code is free to use and adjust as you like. 
+# The author cannot be held responsible for any loses 
+# caused by using these configurations.
+#
+############################################################
+
+#
+# BUY Strategies, Each new strategy requires a new letter
+#
+
+DEFAULT_A_buy_strategy_label = FASTRSI
+DEFAULT_A_buy_strategy = RSI
+
+DEFAULT_B_buy_strategy_label = SLOWRSI
+DEFAULT_B_buy_strategy = RSI
+
+DEFAULT_C_buy_strategy_label = PREVFASTRSI
+DEFAULT_C_buy_strategy = RSI
+
+DEFAULT_D_buy_strategy_label = PREVSLOWRSI
+DEFAULT_D_buy_strategy = RSI
+
+#BUY WHEN FAST RSI IS ABOVE SLOWRSI 
+#DEFAULT_buy_strategy_formula = (SA - SB) > 0
+
+#BUY WHEN FAST RSI CROSSOVER SLOW RSI
+#DEFAULT_buy_strategy_formula = (SA - SB) > 0 && (SC - SD) < 0
